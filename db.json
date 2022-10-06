@@ -1,0 +1,393 @@
+{
+  "organization-units": [
+    {
+      "id": 2,
+      "json": "{}",
+      "email": "steve@codingthesmartway.com",
+      "name": "IT",
+      "zoom": 0.75,
+      "cdate": "2022/7/21",
+      "udate": "2022/7/21",
+      "modified": "Admin"
+    },
+    {
+      "id": 3,
+      "json": "{}",
+      "email": "ann@codingthesmartway.com",
+      "name": "Sales",
+      "zoom": 0.75,
+      "cdate": "2022/7/21",
+      "udate": "2022/7/21",
+      "modified": "Admin"
+    }
+  ],
+  "commission-simulations": [
+    {
+      "id": 1,
+      "scenario": "Scenario 1",
+      "scenario_name": "Daily Commission Calculation for Dealer",
+      "operation": "2022/7/21",
+      "status": "Finish",
+      "commission_report": "Report1",
+      "simulation_start": "2022/7/21",
+      "simulation_end": "2022/7/21",
+      "confirmation": 1
+    },
+    {
+      "id": 2,
+      "scenario": "Scenario 2",
+      "scenario_name": "Daily Commission Calculation for Dealer",
+      "operation": "2022/7/21",
+      "status": "Finish",
+      "commission_report": "Report2",
+      "simulation_start": "2022/7/21",
+      "simulation_end": "2022/7/21",
+      "confirmation": 2
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "address": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "name": "Lorem2",
+      "surname": "Ipsum",
+      "title": "Senior Specialist",
+      "department": "IT",
+      "email": "sebastian@codingthesmartway.com",
+      "tel": "0555 555 55 55",
+      "job_start_date": "2022/7/30",
+      "job_end_date": "2022/7/30",
+      "trainings": [
+        {
+          "id": 2,
+          "training_name": "ddsadsa",
+          "training_desc": "ewwe",
+          "start_date": "15.06.2021",
+          "end_date": "17.06.2021",
+          "training_certification": "CRM Certified"
+        },
+        {
+          "id": 4,
+          "training_name": "aaasd",
+          "training_desc": "3334",
+          "start_date": "21.07.2022",
+          "end_date": "-",
+          "training_certification": ""
+        },
+        {
+          "id": 6,
+          "training_name": "-",
+          "training_desc": "-",
+          "start_date": "-",
+          "end_date": "-",
+          "training_certification": "-"
+        },
+        {
+          "id": 7,
+          "training_name": "-",
+          "training_desc": "-",
+          "start_date": "-",
+          "end_date": "-",
+          "training_certification": "-"
+        }
+      ],
+      "experiences": [
+        {
+          "id": 1,
+          "title": "Marketing Director",
+          "job_desc": "B2C marketing management with 45 staff",
+          "start_date": "15.06.2021",
+          "end_date": "17.06.2021",
+          "company_name": "ABC Company"
+        }
+      ],
+      "educations": [
+        {
+          "id": 1,
+          "school_name": "Primary School",
+          "field": "Science",
+          "start_date": "15.06.2021",
+          "end_date": "17.06.2021",
+          "country": "France"
+        }
+      ],
+      "certifications": [
+        {
+          "id": 1,
+          "cert_name": "Google Analytics 4 Exp",
+          "desc": "B2C marketing certification",
+          "institue_name": "Google",
+          "grade": "95/100",
+          "validity_start_date": "15.06.2021",
+          "validity_end_date": "17.06.2021"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "name": "project1",
+          "desc": "test project description",
+          "date": "15.06.2021"
+        }
+      ],
+      "notes": [
+        {
+          "id": 1,
+          "note_header": "Önemli Bilgi",
+          "desc": "Şirket büyüme stratejisi ile ilgili detaylı planlama yapılacak.",
+          "date": "15.06.2021"
+        }
+      ],
+      "documents": [
+        {
+          "id": 1,
+          "name": "Employee Photo",
+          "type": "Photo",
+          "link": "#",
+          "date": "15.06.2021"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "address": "Adresssssss...",
+      "name": "Steve",
+      "surname": "Thes",
+      "title": "Principal2",
+      "department": "IT",
+      "email": "steve@codingthesmartway.com",
+      "tel": "0555 555 55 55",
+      "job_start_date": "2022/7/21",
+      "job_end_date": "2022/7/21",
+      "trainings": [
+        {
+          "id": 2,
+          "training_name": "ddsadsa",
+          "training_desc": "ewwe",
+          "start_date": "15.06.2021",
+          "end_date": "17.06.2021",
+          "training_certification": "CRM Certified"
+        },
+        {
+          "id": 4,
+          "training_name": "aaasd",
+          "training_desc": "3334",
+          "start_date": "21.07.2022",
+          "end_date": "-",
+          "training_certification": ""
+        },
+        {
+          "id": 6,
+          "training_name": "-",
+          "training_desc": "-",
+          "start_date": "-",
+          "end_date": "-",
+          "training_certification": "-"
+        },
+        {
+          "id": 7,
+          "training_name": "-",
+          "training_desc": "-",
+          "start_date": "-",
+          "end_date": "-",
+          "training_certification": "-"
+        }
+      ],
+      "experiences": [
+        {
+          "id": 1,
+          "title": "Marketing Director",
+          "job_desc": "B2C marketing management with 45 staff",
+          "start_date": "15.06.2021",
+          "end_date": "17.06.2021",
+          "company_name": "ABC Company"
+        }
+      ],
+      "educations": [
+        {
+          "id": 1,
+          "school_name": "Primary School",
+          "field": "Science",
+          "start_date": "15.06.2021",
+          "end_date": "17.06.2021",
+          "country": "France"
+        }
+      ],
+      "certifications": [
+        {
+          "id": 1,
+          "cert_name": "Google Analytics 4 Exp",
+          "desc": "B2C marketing certification",
+          "institue_name": "Google",
+          "grade": "95/100",
+          "validity_start_date": "15.06.2021",
+          "validity_end_date": "17.06.2021"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "name": "project1",
+          "desc": "test project description",
+          "date": "15.06.2021"
+        }
+      ],
+      "notes": [
+        {
+          "id": 1,
+          "note_header": "Önemli Bilgi",
+          "desc": "Şirket büyüme stratejisi ile ilgili detaylı planlama yapılacak.",
+          "date": "15.06.2021"
+        }
+      ],
+      "documents": [
+        {
+          "id": 1,
+          "name": "Employee Photo",
+          "type": "Photo",
+          "link": "#",
+          "date": "15.06.2021"
+        }
+      ]
+    }
+  ],
+  "sale-channel-matrix": [
+    {
+      "id": 1,
+      "sale_channel": "Sale Channel 1",
+      "sales_channel_group": "Sales Channel Group 1",
+      "sub_channel": "Sub Channel 1",
+      "user_type": "User Type 1",
+      "role": "Role 1",
+      "actions": 1
+    },
+    {
+      "id": 2,
+      "sale_channel": "Sale Channel 2",
+      "sales_channel_group": "Sales Channel Group 2",
+      "sub_channel": "Sub Channel 2",
+      "user_type": "User Type 2",
+      "role": "Role 2",
+      "actions": 2
+    },
+    {
+      "id": 3,
+      "sale_channel": "Sale Channel 3",
+      "sales_channel_group": "Sales Channel Group 3",
+      "sub_channel": "Sub Channel 3",
+      "user_type": "User Type 3",
+      "role": "Role 3",
+      "actions": 3
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "name": "Event 1"
+    },
+    {
+      "id": 2,
+      "name": "Event 2"
+    },
+    {
+      "id": 3,
+      "name": "Event 3"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "product 1"
+    },
+    {
+      "id": 2,
+      "name": "product 2"
+    },
+    {
+      "id": 3,
+      "name": "product 3"
+    }
+  ],
+  "quantity-types": [
+    {
+      "id": 1,
+      "name": "Number"
+    },
+    {
+      "id": 2,
+      "name": "currency (TL)"
+    },
+    {
+      "id": 3,
+      "name": "quantity Type 3"
+    }
+  ],
+  "employee-targets": [
+    {
+      "id": 1,
+      "employee": {
+        "name": "Lorem2",
+        "id": 1
+      },
+      "event": {
+        "name": "Event 1",
+        "id": 1
+      },
+      "product": {
+        "name": "product 1",
+        "id": 1
+      },
+      "quantity": 5,
+      "quantity_type": {
+        "name": "Number",
+        "id": 1
+      },
+      "calculation_period": {
+        "name": "Monthly",
+        "id": 1
+      },
+      "calculation_start_date": {
+        "name": "First day of the month",
+        "id": 1
+      },
+      "calculation_end_date": {
+        "name": "Last day of the quarter",
+        "id": 2
+      },
+      "status": 2
+    },
+    {
+      "id": 3,
+      "employee": {
+        "name": "Ann",
+        "id": 3
+      },
+      "event": {
+        "name": "Event 2",
+        "id": 2
+      },
+      "product": {
+        "name": "product 3",
+        "id": 3
+      },
+      "quantity": -11,
+      "quantity_type": {
+        "name": "quantity Type 3",
+        "id": 3
+      },
+      "calculation_period": {
+        "name": "Yearly",
+        "id": 3
+      },
+      "calculation_start_date": {
+        "name": "First day of the year",
+        "id": 3
+      },
+      "calculation_end_date": {
+        "name": "Last day of the year",
+        "id": 3
+      },
+      "status": 2
+    }
+  ]
+}
