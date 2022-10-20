@@ -48,104 +48,13 @@
   "employees": [
     {
       "id": 1,
-      "address": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      "name": "Lorem2",
-      "surname": "Ipsum",
-      "title": "Senior Specialist",
-      "department": "IT",
-      "email": "sebastian@codingthesmartway.com",
-      "tel": "0555 555 55 55",
-      "job_start_date": "2022/7/30",
-      "job_end_date": "2022/7/30",
-      "trainings": [
-        {
-          "id": 2,
-          "training_name": "ddsadsa",
-          "training_desc": "ewwe",
-          "start_date": "15.06.2021",
-          "end_date": "17.06.2021",
-          "training_certification": "CRM Certified"
-        },
-        {
-          "id": 4,
-          "training_name": "aaasd",
-          "training_desc": "3334",
-          "start_date": "21.07.2022",
-          "end_date": "-",
-          "training_certification": ""
-        },
-        {
-          "id": 6,
-          "training_name": "-",
-          "training_desc": "-",
-          "start_date": "-",
-          "end_date": "-",
-          "training_certification": "-"
-        },
-        {
-          "id": 7,
-          "training_name": "-",
-          "training_desc": "-",
-          "start_date": "-",
-          "end_date": "-",
-          "training_certification": "-"
-        }
-      ],
-      "experiences": [
-        {
-          "id": 1,
-          "title": "Marketing Director",
-          "job_desc": "B2C marketing management with 45 staff",
-          "start_date": "15.06.2021",
-          "end_date": "17.06.2021",
-          "company_name": "ABC Company"
-        }
-      ],
-      "educations": [
-        {
-          "id": 1,
-          "school_name": "Primary School",
-          "field": "Science",
-          "start_date": "15.06.2021",
-          "end_date": "17.06.2021",
-          "country": "France"
-        }
-      ],
-      "certifications": [
-        {
-          "id": 1,
-          "cert_name": "Google Analytics 4 Exp",
-          "desc": "B2C marketing certification",
-          "institue_name": "Google",
-          "grade": "95/100",
-          "validity_start_date": "15.06.2021",
-          "validity_end_date": "17.06.2021"
-        }
-      ],
-      "projects": [
-        {
-          "id": 1,
-          "name": "project1",
-          "desc": "test project description",
-          "date": "15.06.2021"
-        }
-      ],
-      "notes": [
-        {
-          "id": 1,
-          "note_header": "Önemli Bilgi",
-          "desc": "Şirket büyüme stratejisi ile ilgili detaylı planlama yapılacak.",
-          "date": "15.06.2021"
-        }
-      ],
-      "documents": [
-        {
-          "id": 1,
-          "name": "Employee Photo",
-          "type": "Photo",
-          "link": "#",
-          "date": "15.06.2021"
-        }
+      "name": "Dealer Name1",
+      "address": "Test address",
+      "contact": "#",
+      "tags": [
+        "#tag1",
+        "#tag2",
+        "#tag3"
       ]
     },
     {
@@ -228,7 +137,7 @@
         {
           "id": 1,
           "name": "project1",
-          "desc": "test project description",
+          "desc": "# project description",
           "date": "15.06.2021"
         }
       ],
@@ -246,6 +155,246 @@
           "name": "Employee Photo",
           "type": "Photo",
           "link": "#",
+          "date": "15.06.2021"
+        }
+      ]
+    }
+  ],
+  "dealers": [
+    {
+      "id": 1,
+      "no": "#",
+      "dealerName": "Dealer Name4",
+      "dealerCo": "#",
+      "dealerTy": "#",
+      "address": "Test address",
+      "contactPers": "#",
+      "phone": "#",
+      "email": "#",
+      "contractStartD": "#",
+      "contractEndD": "#",
+      "muncipilatyExpiry": "#",
+      "registeredD": "#",
+      "latitude": "#",
+      "longitud": "#",
+      "isPreferPart": "#",
+      "areaI": "#",
+      "dSI": "#",
+      "createrUser": "#",
+      "createdStatus": "#",
+      "distributor": "#",
+      "distrubutorName": "#",
+      "areaType": "#",
+      "partnerType": "#",
+      "segmentCla": "#",
+      "region": "#",
+      "wilay": "#",
+      "location": "#",
+      "businessTy": "#",
+      "aMI": "#",
+      "areaManagerNa": "#",
+      "dSMI": "#",
+      "dSMName": "#",
+      "areaNa": "#",
+      "inventoryCo": "#",
+      "tags": [
+        "#tag1",
+        "#tag2",
+        "#tag3"
+      ],
+      "addresses": [
+        {
+          "id": 1,
+          "name": "#",
+          "desc": "#",
+          "date": "15.06.2021",
+          "city": "#",
+          "country": "#"
+        }
+      ],
+      "contacts": [
+        {
+          "id": 1,
+          "name": "#",
+          "role": "#",
+          "date": "15.06.2021",
+          "city": "#",
+          "country": "#",
+          "phone": "05555555555"
+        }
+      ],
+      "invoices": [
+        {
+          "id": 1,
+          "invoice_document": "#",
+          "invoice_date": "15.06.2021",
+          "payment_due_date": "#",
+          "currency": "#",
+          "amount": "#",
+          "received": "05555555555",
+          "remain": "05555555555"
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "name": "#",
+          "type": "#",
+          "owner": "#",
+          "date": "15.06.2021",
+          "contacts": "#",
+          "summary": "#",
+          "todo_lists": "#",
+          "releated_docs": "#"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "name": "#",
+          "type": "#",
+          "start_date": "15.06.2021",
+          "total_effort": "#",
+          "total_budget": "#",
+          "spe": "#",
+          "remaining": "#",
+          "currency": "#"
+        }
+      ],
+      "documents": [
+        {
+          "id": 1,
+          "name": "#",
+          "desc": "#",
+          "date": "15.06.2021",
+          "city": "#",
+          "country": "#"
+        }
+      ],
+      "notes": [
+        {
+          "id": 1,
+          "note_header": "Önemli Bilgi",
+          "text": "Şirket büyüme stratejisi ile ilgili detaylı planlama yapılacak.",
+          "date": "15.06.2021"
+        }
+      ]
+    }
+  ],
+  "partners": [
+    {
+      "id":"1",
+      "no":"#",
+      "partnerName":"partner Name",
+      "partner":"#",
+      "projectN":"#",
+      "eventNa":"#",
+      "contactPe":"#",
+      "phone":"#",
+      "email":"#",
+      "contractSta":"#",
+      "contractEn":"#",
+      "muncipilatyEx":"#",
+      "registere":"#",
+      "latitud":"#",
+      "longitu":"#",
+      "isPreferP":"#",
+      "area":"#",
+      "dS":"#",
+      "createrU":"#",
+      "createSta":"#",
+      "distribut":"#",
+      "distrubutorNa":"#",
+      "areaType":"#",
+      "segment":"#",
+      "regio":"#",
+      "wil":"#",
+      "locat":"#",
+      "business":"#",
+      "aM":"#",
+      "areaManage":"#",
+      "dSM":"#",
+      "dSMName":"#",
+      "areaN":"#",
+      "inventor":"#",
+      "tags": [
+        "#tag1",
+        "#tag2"
+      ],
+      "addresses": [
+        {
+          "id": 1,
+          "name": "#",
+          "desc": "#",
+          "date": "15.06.2021",
+          "city": "#",
+          "country": "#"
+        }
+      ],
+      "contacts": [
+        {
+          "id": 1,
+          "name": "#",
+          "role": "#",
+          "date": "15.06.2021",
+          "city": "#",
+          "country": "#",
+          "phone": "05555555555"
+        }
+      ],
+      "invoices": [
+        {
+          "id": 1,
+          "invoice_document": "#",
+          "invoice_date": "15.06.2021",
+          "payment_due_date": "#",
+          "currency": "#",
+          "amount": "#",
+          "received": "05555555555",
+          "remain": "05555555555"
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "name": "#",
+          "type": "#",
+          "owner": "#",
+          "date": "15.06.2021",
+          "contacts": "#",
+          "summary": "#",
+          "todo_lists": "#",
+          "releated_docs": "#"
+        }
+      ],
+      "projects": [
+        {
+          "id": 1,
+          "name": "#",
+          "type": "#",
+          "start_date": "15.06.2021",
+          "total_effort": "#",
+          "total_budget": "#",
+          "spe": "#",
+          "remaining": "#",
+          "currency": "#"
+        }
+      ],
+      "documents": [
+        {
+          "id": 1,
+          "name": "#",
+          "desc": "#",
+          "date": "15.06.2021",
+          "city": "#",
+          "country": "#"
+        }
+      ],
+      "notes": [
+        {
+          "id": 1,
+          "note_header": "Önemli Bilgi",
+          "text": "Şirket büyüme stratejisi ile ilgili detaylı planlama yapılacak.",
           "date": "15.06.2021"
         }
       ]
