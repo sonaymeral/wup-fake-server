@@ -1,4 +1,4 @@
-{ 
+{
   "organization-units": [
     {
       "id": 2,
@@ -160,127 +160,7 @@
       ]
     }
   ],
-  "dealers": [
-    {
-      "id": 1,
-      "no": "#",
-      "dealerName": "Dealer Name4",
-      "dealerCo": "#",
-      "dealerTy": "#",
-      "address": "Test address",
-      "contactPers": "#",
-      "phone": "#",
-      "email": "#",
-      "contractStartD": "#",
-      "contractEndD": "#",
-      "muncipilatyExpiry": "#",
-      "registeredD": "#",
-      "latitude": "#",
-      "longitud": "#",
-      "isPreferPart": "#",
-      "areaI": "#",
-      "dSI": "#",
-      "createrUser": "#",
-      "createdStatus": "#",
-      "distributor": "#",
-      "distrubutorName": "#",
-      "areaType": "#",
-      "partnerType": "#",
-      "segmentCla": "#",
-      "region": "#",
-      "wilay": "#",
-      "location": "#",
-      "businessTy": "#",
-      "aMI": "#",
-      "areaManagerNa": "#",
-      "dSMI": "#",
-      "dSMName": "#",
-      "areaNa": "#",
-      "inventoryCo": "#",
-      "tags": [
-        "#tag1",
-        "#tag2",
-        "#tag3"
-      ],
-      "addresses": [
-        {
-          "id": 1,
-          "name": "#",
-          "desc": "#",
-          "date": "15.06.2021",
-          "city": "#",
-          "country": "#"
-        }
-      ],
-      "contacts": [
-        {
-          "id": 1,
-          "name": "#",
-          "role": "#",
-          "date": "15.06.2021",
-          "city": "#",
-          "country": "#",
-          "phone": "05555555555"
-        }
-      ],
-      "invoices": [
-        {
-          "id": 1,
-          "invoice_document": "#",
-          "invoice_date": "15.06.2021",
-          "payment_due_date": "#",
-          "currency": "#",
-          "amount": "#",
-          "received": "05555555555",
-          "remain": "05555555555"
-        }
-      ],
-      "events": [
-        {
-          "id": 1,
-          "name": "#",
-          "type": "#",
-          "owner": "#",
-          "date": "15.06.2021",
-          "contacts": "#",
-          "summary": "#",
-          "todo_lists": "#",
-          "releated_docs": "#"
-        }
-      ],
-      "projects": [
-        {
-          "id": 1,
-          "name": "#",
-          "type": "#",
-          "start_date": "15.06.2021",
-          "total_effort": "#",
-          "total_budget": "#",
-          "spe": "#",
-          "remaining": "#",
-          "currency": "#"
-        }
-      ],
-      "documents": [
-        {
-          "id": 1,
-          "name": "#",
-          "desc": "#",
-          "date": "15.06.2021",
-          "city": "#",
-          "country": "#"
-        }
-      ],
-      "notes": [
-        {
-          "id": 1,
-          "note_header": "Önemli Bilgi",
-          "text": "Şirket büyüme stratejisi ile ilgili detaylı planlama yapılacak.",
-          "date": "15.06.2021"
-        }
-      ]
-    }
-  ],
+
   "partners": [
     {
       "id":"1",
@@ -408,7 +288,7 @@
       "sub_channel": "Sub Channel 1",
       "user_type": "User Type 1",
       "role": "Role 1",
-      "actions": 1
+      "status": 1
     },
     {
       "id": 2,
@@ -417,7 +297,7 @@
       "sub_channel": "Sub Channel 2",
       "user_type": "User Type 2",
       "role": "Role 2",
-      "actions": 2
+      "status": 2
     },
     {
       "id": 3,
@@ -426,7 +306,21 @@
       "sub_channel": "Sub Channel 3",
       "user_type": "User Type 3",
       "role": "Role 3",
-      "actions": 3
+      "status": 3
+    }
+  ],
+  "dealers": [
+    {
+      "id": 1,
+      "name": "Dealer 1"
+    },
+    {
+      "id": 2,
+      "name": "Dealer 2"
+    },
+    {
+      "id": 3,
+      "name": "Dealer 3"
     }
   ],
   "events": [
@@ -443,6 +337,20 @@
       "name": "Event 3"
     }
   ],
+  "operations": [
+    {
+      "id": 1,
+      "name": "Operation 1"
+    },
+    {
+      "id": 2,
+      "name": "Operation 2"
+    },
+    {
+      "id": 3,
+      "name": "Operation 3"
+    }
+  ],
   "products": [
     {
       "id": 1,
@@ -455,6 +363,20 @@
     {
       "id": 3,
       "name": "product 3"
+    }
+  ],
+  "organization-unit": [
+    {
+      "id": 1,
+      "name": "organization unit 1"
+    },
+    {
+      "id": 2,
+      "name": "organization unit 2"
+    },
+    {
+      "id": 3,
+      "name": "organization unit 3"
     }
   ],
   "quantity-types": [
@@ -514,6 +436,150 @@
       "event": {
         "name": "Event 2",
         "id": 2
+      },
+      "product": {
+        "name": "product 3",
+        "id": 3
+      },
+      "quantity": -11,
+      "quantity_type": {
+        "name": "quantity Type 3",
+        "id": 3
+      },
+      "calculation_period": {
+        "name": "Yearly",
+        "id": 3
+      },
+      "calculation_start_date": {
+        "name": "First day of the year",
+        "id": 3
+      },
+      "calculation_end_date": {
+        "name": "Last day of the year",
+        "id": 3
+      },
+      "status": 2
+    }
+  ],
+  "dealer-targets": [
+    {
+      "id": 1,
+      "dealer": {
+        "name": "Lorem2",
+        "id": 1
+      },
+      "event": {
+        "name": "Event 1",
+        "id": 1
+      },
+      "product": {
+        "name": "product 1",
+        "id": 1
+      },
+      "quantity": 5,
+      "quantity_type": {
+        "name": "Number",
+        "id": 1
+      },
+      "calculation_period": {
+        "name": "Monthly",
+        "id": 1
+      },
+      "calculation_start_date": {
+        "name": "First day of the month",
+        "id": 1
+      },
+      "calculation_end_date": {
+        "name": "Last day of the quarter",
+        "id": 2
+      },
+      "status": 2
+    },
+    {
+      "id": 3,
+      "dealer": {
+        "name": "Ann",
+        "id": 3
+      },
+      "event": {
+        "name": "Event 2",
+        "id": 2
+      },
+      "product": {
+        "name": "product 3",
+        "id": 3
+      },
+      "quantity": -11,
+      "quantity_type": {
+        "name": "quantity Type 3",
+        "id": 3
+      },
+      "calculation_period": {
+        "name": "Yearly",
+        "id": 3
+      },
+      "calculation_start_date": {
+        "name": "First day of the year",
+        "id": 3
+      },
+      "calculation_end_date": {
+        "name": "Last day of the year",
+        "id": 3
+      },
+      "status": 2
+    }
+  ],
+  "organization-unit-targets": [
+    {
+      "id": 1,
+      "organization_unit": {
+        "name": "Lorem2",
+        "id": 1
+      },
+      "operation": {
+        "name": "operation 1",
+        "id": 1
+      },
+      "event": {
+        "name": "event 1",
+        "id": 1
+      },
+      "product": {
+        "name": "product 1",
+        "id": 1
+      },
+      "quantity": 5,
+      "quantity_type": {
+        "name": "Number",
+        "id": 1
+      },
+      "calculation_period": {
+        "name": "Monthly",
+        "id": 1
+      },
+      "calculation_start_date": {
+        "name": "First day of the month",
+        "id": 1
+      },
+      "calculation_end_date": {
+        "name": "Last day of the quarter",
+        "id": 2
+      },
+      "status": 2
+    },
+    {
+      "id": 3,
+      "organization_unit": {
+        "name": "Ann",
+        "id": 3
+      },
+      "operation": {
+        "name": "operation 2",
+        "id": 2
+      },
+      "event": {
+        "name": "event 1",
+        "id": 1
       },
       "product": {
         "name": "product 3",
