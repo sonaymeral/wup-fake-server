@@ -45,6 +45,52 @@
       "confirmation": 2
     }
   ],
+  "open-tickets": [
+    {
+      "id": 1,
+      "ticket_subjects": "Ticket 1",
+      "ticket_type": "Ticket Type 1",
+      "ticket_text": "test",
+      "status": "1",
+      "start_date": "2022/7/21",
+      "end_date": "2022/7/21",
+      "confirmation": 1
+    },
+    {
+      "id": 2,
+      "ticket_subjects": "Ticket 2",
+      "ticket_type": "Ticket Type 2",
+      "ticket_text": "test",
+      "status": "2",
+      "commission_report": "Report2",
+      "start_date": "2022/7/21",
+      "end_date": "2022/7/21",
+      "confirmation": 2
+    }
+  ],
+  "old-tickets": [
+    {
+      "id": 1,
+      "ticket_subjects": "Ticket 1",
+      "ticket_type": "Ticket Type 1",
+      "ticket_text": "test",
+      "status": "1",
+      "start_date": "2022/7/21",
+      "end_date": "2022/7/21",
+      "confirmation": 1
+    },
+    {
+      "id": 2,
+      "ticket_subjects": "Ticket 2",
+      "ticket_type": "Ticket Type 2",
+      "ticket_text": "test",
+      "status": "2",
+      "commission_report": "Report2",
+      "start_date": "2022/7/21",
+      "end_date": "2022/7/21",
+      "confirmation": 2
+    }
+  ],
   "employees": [
     {
       "id": 1,
