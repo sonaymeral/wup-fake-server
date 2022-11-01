@@ -73,6 +73,68 @@
       "last_modified_date": "2022/7/21"
     }
   ],
+  "roles": [
+    {
+      "id": 1,
+      "module": "Login",
+      "roles_and_permissions": "Login",
+      "system_admin": true,
+      "manager": true,
+      "super_admin": true,
+      "ism_user": false,
+      "fraud_management_user": false,
+      "head_account": false,
+      "area_managers": false
+    },
+    {
+      "id": 2,
+      "module": "Party Management",
+      "roles_and_permissions": "Employees (display)",
+      "system_admin": true,
+      "manager": true,
+      "super_admin": true,
+      "ism_user": false,
+      "fraud_management_user": false,
+      "head_account": false,
+      "area_managers": false
+    },
+    {
+      "id": 3,
+      "module": "Party Management",
+      "roles_and_permissions": "Dealers (display)",
+      "system_admin": true,
+      "manager": true,
+      "super_admin": true,
+      "ism_user": false,
+      "fraud_management_user": false,
+      "head_account": false,
+      "area_managers": false
+    },
+    {
+      "id": 4,
+      "module": "Party Management",
+      "roles_and_permissions": "Partners (display)",
+      "system_admin": true,
+      "manager": true,
+      "super_admin": true,
+      "ism_user": false,
+      "fraud_management_user": false,
+      "head_account": false,
+      "area_managers": false
+    },
+    {
+      "id": 5,
+      "module": "Party Management",
+      "roles_and_permissions": "Organization Units (display)",
+      "system_admin": true,
+      "manager": true,
+      "super_admin": true,
+      "ism_user": false,
+      "fraud_management_user": false,
+      "head_account": false,
+      "area_managers": false
+    }
+  ],
   "open-tickets": [
     {
       "id": 1,
