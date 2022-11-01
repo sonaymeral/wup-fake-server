@@ -45,6 +45,34 @@
       "confirmation": 2
     }
   ],
+  "parameters": [
+    {
+      "id": 1,
+      "parameter_data_type": "Parameter 1",
+      "parameter_value": "Parameter Value 1",
+      "last_modified_date": "2022/7/21"
+    },
+    {
+      "id": 2,
+      "parameter_data_type": "Parameter 2",
+      "parameter_value": "Parameter Value 2",
+      "last_modified_date": "2022/7/21"
+    }
+  ],
+  "connection-parameters": [
+    {
+      "id": 1,
+      "connection_parameter_name": "Connection Parameter Name 1",
+      "connection_parameter_value": "Connection Parameter Value 1",
+      "last_modified_date": "2022/7/21"
+    },
+    {
+      "id": 2,
+      "connection_parameter_name": "Connection Parameter Name 2",
+      "connection_parameter_value": "Connection Parameter Value 2",
+      "last_modified_date": "2022/7/21"
+    }
+  ],
   "open-tickets": [
     {
       "id": 1,
