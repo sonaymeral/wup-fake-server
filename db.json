@@ -181,20 +181,61 @@
       "confirmation": 2
     }
   ],
-  "employees": [
+  "system-health": [
     {
       "id": 1,
-      "name": "Dealer Name1",
-      "address": "Test address",
-      "contact": "#",
-      "tags": [
-        "#tag1",
-        "#tag2",
-        "#tag3"
-      ]
+      "system_name": "System 1",
+      "system_type": "System Type 1",
+      "system_health": "success",
+      "last_modified_date": "2022/7/21",
+      "private_ip": "private ip test",
+      "public_ip": "public ip test",
+      "version": 1,
+      "status": "status 1",
+      "last_logon_date": "last logon date 1",
+      "description": "description 1"
     },
     {
       "id": 2,
+      "system_name": "System 2",
+      "system_type": "System Type 2",
+      "system_health": "error",
+      "last_modified_date": "2022/7/22",
+      "private_ip": "private ip test",
+      "public_ip": "public ip test",
+      "version": 2,
+      "status": "status 2",
+      "last_logon_date": "last logon date 2",
+      "description": "description 2"
+    }
+  ],
+  "system-logs": [
+    {
+      "id": 1,
+      "log_name": "log 1",
+      "log_type": "log Type 1",
+      "log_message": "log message 1",
+      "last_modified_date": "2022/7/21",
+      "description": "description 1",
+      "source": "public ip 1",
+      "event": "source 1",
+      "status": 1
+    },
+    {
+      "id": 2,
+      "log_name": "log 2",
+      "log_type": "log Type 2",
+      "log_message": "log message 2",
+      "last_modified_date": "2022/7/22",
+      "description": "description 2",
+      "source": "public ip 2",
+      "event": "source 2",
+      "status": 2
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
       "address": "Adresssssss...",
       "name": "Steve",
       "surname": "Thes",
@@ -296,7 +337,6 @@
       ]
     }
   ],
-
   "partners": [
     {
       "id":"1",
