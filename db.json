@@ -1,837 +1,846 @@
 {
-  "organization-units": [
-    {
-      "id": 2,
-      "json": "{}",
-      "email": "steve@codingthesmartway.com",
-      "name": "IT",
-      "zoom": 0.75,
-      "cdate": "2022/7/21",
-      "udate": "2022/7/21",
-      "modified": "Admin"
-    },
-    {
-      "id": 3,
-      "json": "{}",
-      "email": "ann@codingthesmartway.com",
-      "name": "Sales",
-      "zoom": 0.75,
-      "cdate": "2022/7/21",
-      "udate": "2022/7/21",
-      "modified": "Admin"
-    }
-  ],
-  "commission-simulations": [
-    {
-      "id": 1,
-      "scenario": "Scenario 1",
-      "scenario_name": "Daily Commission Calculation for Dealer",
-      "operation": "2022/7/21",
-      "status": "Finish",
-      "commission_report": "Report1",
-      "simulation_start": "2022/7/21",
-      "simulation_end": "2022/7/21",
-      "confirmation": 1
-    },
-    {
-      "id": 2,
-      "scenario": "Scenario 2",
-      "scenario_name": "Daily Commission Calculation for Dealer",
-      "operation": "2022/7/21",
-      "status": "Finish",
-      "commission_report": "Report2",
-      "simulation_start": "2022/7/21",
-      "simulation_end": "2022/7/21",
-      "confirmation": 2
-    }
-  ],
-  "parameters": [
-    {
-      "id": 1,
-      "parameter_data_type": "Parameter 1",
-      "parameter_value": "Parameter Value 1",
-      "last_modified_date": "2022/7/21"
-    },
-    {
-      "id": 2,
-      "parameter_data_type": "Parameter 2",
-      "parameter_value": "Parameter Value 2",
-      "last_modified_date": "2022/7/21"
-    }
-  ],
-  "connection-parameters": [
-    {
-      "id": 1,
-      "connection_parameter_name": "Connection Parameter Name 1",
-      "connection_parameter_value": "Connection Parameter Value 1",
-      "last_modified_date": "2022/7/21"
-    },
-    {
-      "id": 2,
-      "connection_parameter_name": "Connection Parameter Name 2",
-      "connection_parameter_value": "Connection Parameter Value 2",
-      "last_modified_date": "2022/7/21"
-    }
-  ],
-  "roles": [
-    {
-      "id": 1,
-      "module": "Login",
-      "roles_and_permissions": "Login",
-      "system_admin": true,
-      "manager": true,
-      "super_admin": true,
-      "ism_user": false,
-      "fraud_management_user": false,
-      "head_account": false,
-      "area_managers": false
-    },
-    {
-      "id": 2,
-      "module": "Party Management",
-      "roles_and_permissions": "Employees (display)",
-      "system_admin": true,
-      "manager": true,
-      "super_admin": true,
-      "ism_user": false,
-      "fraud_management_user": false,
-      "head_account": false,
-      "area_managers": false
-    },
-    {
-      "id": 3,
-      "module": "Party Management",
-      "roles_and_permissions": "Dealers (display)",
-      "system_admin": true,
-      "manager": true,
-      "super_admin": true,
-      "ism_user": false,
-      "fraud_management_user": false,
-      "head_account": false,
-      "area_managers": false
-    },
-    {
-      "id": 4,
-      "module": "Party Management",
-      "roles_and_permissions": "Partners (display)",
-      "system_admin": true,
-      "manager": true,
-      "super_admin": true,
-      "ism_user": false,
-      "fraud_management_user": false,
-      "head_account": false,
-      "area_managers": false
-    },
-    {
-      "id": 5,
-      "module": "Party Management",
-      "roles_and_permissions": "Organization Units (display)",
-      "system_admin": true,
-      "manager": true,
-      "super_admin": true,
-      "ism_user": false,
-      "fraud_management_user": false,
-      "head_account": false,
-      "area_managers": false
-    }
-  ],
-  "open-tickets": [
-    {
-      "id": 1,
-      "ticket_subjects": "Ticket 1",
-      "ticket_type": "Ticket Type 1",
-      "ticket_text": "test",
-      "status": "1",
-      "start_date": "2022/7/21",
-      "end_date": "2022/7/21",
-      "confirmation": 1
-    },
-    {
-      "id": 2,
-      "ticket_subjects": "Ticket 2",
-      "ticket_type": "Ticket Type 2",
-      "ticket_text": "test",
-      "status": "2",
-      "commission_report": "Report2",
-      "start_date": "2022/7/21",
-      "end_date": "2022/7/21",
-      "confirmation": 2
-    }
-  ],
-  "old-tickets": [
-    {
-      "id": 1,
-      "ticket_subjects": "Ticket 1",
-      "ticket_type": "Ticket Type 1",
-      "ticket_text": "test",
-      "status": "1",
-      "start_date": "2022/7/21",
-      "end_date": "2022/7/21",
-      "confirmation": 1
-    },
-    {
-      "id": 2,
-      "ticket_subjects": "Ticket 2",
-      "ticket_type": "Ticket Type 2",
-      "ticket_text": "test",
-      "status": "2",
-      "commission_report": "Report2",
-      "start_date": "2022/7/21",
-      "end_date": "2022/7/21",
-      "confirmation": 2
-    }
-  ],
-  "system-health": [
-    {
-      "id": 1,
-      "system_name": "System 1",
-      "system_type": "System Type 1",
-      "system_health": "success",
-      "last_modified_date": "2022/7/21",
-      "private_ip": "private ip test",
-      "public_ip": "public ip test",
-      "version": 1,
-      "status": "status 1",
-      "last_logon_date": "last logon date 1",
-      "description": "description 1"
-    },
-    {
-      "id": 2,
-      "system_name": "System 2",
-      "system_type": "System Type 2",
-      "system_health": "error",
-      "last_modified_date": "2022/7/22",
-      "private_ip": "private ip test",
-      "public_ip": "public ip test",
-      "version": 2,
-      "status": "status 2",
-      "last_logon_date": "last logon date 2",
-      "description": "description 2"
-    }
-  ],
-  "system-logs": [
-    {
-      "id": 1,
-      "log_name": "log 1",
-      "log_type": "log Type 1",
-      "log_message": "log message 1",
-      "last_modified_date": "2022/7/21",
-      "description": "description 1",
-      "source": "public ip 1",
-      "event": "source 1",
-      "status": 1
-    },
-    {
-      "id": 2,
-      "log_name": "log 2",
-      "log_type": "log Type 2",
-      "log_message": "log message 2",
-      "last_modified_date": "2022/7/22",
-      "description": "description 2",
-      "source": "public ip 2",
-      "event": "source 2",
-      "status": 2
-    }
-  ],
-  "alerts": [
-    {
-      "id": 1,
-      "severity": "Critical",
-      "system_name": "System 1",
-      "report_date": "2022/7/21",
-      "last_modified_date": "2022/7/21",
-      "threshold": "threshold 1",
-      "action": "action 1",
-      "resource": "resource 1",
-      "instance": "instance 1",
-      "alert_value": 1,
-      "escalation_chain_system": "escalation_chain_system 1",
-      "status": 1
-    },
-    {
-      "id": 2,
-      "severity": "Critical",
-      "system_name": "System 2",
-      "report_date": "2022/7/22",
-      "last_modified_date": "2022/7/22",
-      "threshold": "threshold 2",
-      "action": "action 2",
-      "resource": "resource 2",
-      "instance": "instance 2",
-      "alert_value": 1,
-      "escalation_chain_system": "escalation_chain_system 2",
-      "status": 2
-    }
-  ],
-  "employees": [
-    {
-      "id": 1,
-      "address": "Adresssssss...",
-      "name": "Steve",
-      "surname": "Thes",
-      "title": "Principal2",
-      "department": "IT",
-      "email": "steve@codingthesmartway.com",
-      "tel": "0555 555 55 55",
-      "job_start_date": "2022/7/21",
-      "job_end_date": "2022/7/21",
-      "trainings": [
-        {
-          "id": 2,
-          "training_name": "ddsadsa",
-          "training_desc": "ewwe",
-          "start_date": "15.06.2021",
-          "end_date": "17.06.2021",
-          "training_certification": "CRM Certified"
-        },
-        {
-          "id": 4,
-          "training_name": "aaasd",
-          "training_desc": "3334",
-          "start_date": "21.07.2022",
-          "end_date": "-",
-          "training_certification": ""
-        },
-        {
-          "id": 6,
-          "training_name": "-",
-          "training_desc": "-",
-          "start_date": "-",
-          "end_date": "-",
-          "training_certification": "-"
-        },
-        {
-          "id": 7,
-          "training_name": "-",
-          "training_desc": "-",
-          "start_date": "-",
-          "end_date": "-",
-          "training_certification": "-"
-        }
-      ],
-      "experiences": [
-        {
-          "id": 1,
-          "title": "Marketing Director",
-          "job_desc": "B2C marketing management with 45 staff",
-          "start_date": "15.06.2021",
-          "end_date": "17.06.2021",
-          "company_name": "ABC Company"
-        }
-      ],
-      "educations": [
-        {
-          "id": 1,
-          "school_name": "Primary School",
-          "field": "Science",
-          "start_date": "15.06.2021",
-          "end_date": "17.06.2021",
-          "country": "France"
-        }
-      ],
-      "certifications": [
-        {
-          "id": 1,
-          "cert_name": "Google Analytics 4 Exp",
-          "desc": "B2C marketing certification",
-          "institue_name": "Google",
-          "grade": "95/100",
-          "validity_start_date": "15.06.2021",
-          "validity_end_date": "17.06.2021"
-        }
-      ],
-      "projects": [
-        {
-          "id": 1,
-          "name": "project1",
-          "desc": "# project description",
-          "date": "15.06.2021"
-        }
-      ],
-      "notes": [
-        {
-          "id": 1,
-          "note_header": "Önemli Bilgi",
-          "desc": "Şirket büyüme stratejisi ile ilgili detaylı planlama yapılacak.",
-          "date": "15.06.2021"
-        }
-      ],
-      "documents": [
-        {
-          "id": 1,
-          "name": "Employee Photo",
-          "type": "Photo",
-          "link": "#",
-          "date": "15.06.2021"
-        }
-      ],
-	    "targets": [
-        {
-          "id": 1,
-          "TargetN": "Target Name",
-          "EventN": "Event Name",
-		  "ProductN": "Product Name",
-		  "Quantity": "12",
-		  "QuantityType": "Number",
-		  "TargetRealization": "9",
-		  "TargetRealPersantange": "%10",
-          "TargetsDate": "15.06.2021",
-		  "TargeteDate": "15.06.2023"
-        }
-      ],
-	  "sales": [
-        {
-          "id": 1,
-          "name": "Employee Photo",
-          "type": "Photo",
-          "link": "#",
-          "date": "15.06.2021"
-        }
-      ]
-    }
-  ],
-  "partners": [
-    {
-      "id":"1",
-      "no":"#",
-      "partnerName":"partner Name",
-      "partner":"#",
-      "projectN":"#",
-      "eventNa":"#",
-      "contactPe":"#",
-      "phone":"#",
-      "email":"#",
-      "contractSta":"#",
-      "contractEn":"#",
-      "muncipilatyEx":"#",
-      "registere":"#",
-      "latitud":"#",
-      "longitu":"#",
-      "isPreferP":"#",
-      "area":"#",
-      "dS":"#",
-      "createrU":"#",
-      "createSta":"#",
-      "distribut":"#",
-      "distrubutorNa":"#",
-      "areaType":"#",
-      "segment":"#",
-      "regio":"#",
-      "wil":"#",
-      "locat":"#",
-      "business":"#",
-      "aM":"#",
-      "areaManage":"#",
-      "dSM":"#",
-      "dSMName":"#",
-      "areaN":"#",
-      "inventor":"#",
-      "tags": [
-        "#tag1",
-        "#tag2"
-      ],
-      "addresses": [
-        {
-          "id": 1,
-          "name": "#",
-          "desc": "#",
-          "date": "15.06.2021",
-          "city": "#",
-          "country": "#"
-        }
-      ],
-      "contacts": [
-        {
-          "id": 1,
-          "name": "#",
-          "role": "#",
-          "date": "15.06.2021",
-          "city": "#",
-          "country": "#",
-          "phone": "05555555555"
-        }
-      ],
-      "invoices": [
-        {
-          "id": 1,
-          "invoice_document": "#",
-          "invoice_date": "15.06.2021",
-          "payment_due_date": "#",
-          "currency": "#",
-          "amount": "#",
-          "received": "05555555555",
-          "remain": "05555555555"
-        }
-      ],
-      "events": [
-        {
-          "id": 1,
-          "name": "#",
-          "type": "#",
-          "owner": "#",
-          "date": "15.06.2021",
-          "contacts": "#",
-          "summary": "#",
-          "todo_lists": "#",
-          "releated_docs": "#"
-        }
-      ],
-      "projects": [
-        {
-          "id": 1,
-          "name": "#",
-          "type": "#",
-          "start_date": "15.06.2021",
-          "total_effort": "#",
-          "total_budget": "#",
-          "spe": "#",
-          "remaining": "#",
-          "currency": "#"
-        }
-      ],
-      "documents": [
-        {
-          "id": 1,
-          "name": "#",
-          "desc": "#",
-          "date": "15.06.2021",
-          "city": "#",
-          "country": "#"
-        }
-      ],
-      "notes": [
-        {
-          "id": 1,
-          "note_header": "Önemli Bilgi",
-          "text": "Şirket büyüme stratejisi ile ilgili detaylı planlama yapılacak.",
-          "date": "15.06.2021"
-        }
-      ]
-    }
-  ],
-  "sale-channel-matrix": [
-    {
-      "id": 1,
-      "sale_channel": "Sale Channel 1",
-      "sales_channel_group": "Sales Channel Group 1",
-      "sub_channel": "Sub Channel 1",
-      "user_type": "User Type 1",
-      "role": "Role 1",
-      "status": 1
-    },
-    {
-      "id": 2,
-      "sale_channel": "Sale Channel 2",
-      "sales_channel_group": "Sales Channel Group 2",
-      "sub_channel": "Sub Channel 2",
-      "user_type": "User Type 2",
-      "role": "Role 2",
-      "status": 2
-    },
-    {
-      "id": 3,
-      "sale_channel": "Sale Channel 3",
-      "sales_channel_group": "Sales Channel Group 3",
-      "sub_channel": "Sub Channel 3",
-      "user_type": "User Type 3",
-      "role": "Role 3",
-      "status": 3
-    }
-  ],
-  "dealers": [
-    {
-      "id": 1,
-      "name": "Dealer 1"
-    },
-    {
-      "id": 2,
-      "name": "Dealer 2"
-    },
-    {
-      "id": 3,
-      "name": "Dealer 3"
-    }
-  ],
-  "events": [
-    {
-      "id": 1,
-      "name": "Event 1"
-    },
-    {
-      "id": 2,
-      "name": "Event 2"
-    },
-    {
-      "id": 3,
-      "name": "Event 3"
-    }
-  ],
-  "operations": [
-    {
-      "id": 1,
-      "name": "Operation 1"
-    },
-    {
-      "id": 2,
-      "name": "Operation 2"
-    },
-    {
-      "id": 3,
-      "name": "Operation 3"
-    }
-  ],
-  "products": [
-    {
-      "id": 1,
-      "name": "product 1"
-    },
-    {
-      "id": 2,
-      "name": "product 2"
-    },
-    {
-      "id": 3,
-      "name": "product 3"
-    }
-  ],
-  "organization-unit": [
-    {
-      "id": 1,
-      "name": "organization unit 1"
-    },
-    {
-      "id": 2,
-      "name": "organization unit 2"
-    },
-    {
-      "id": 3,
-      "name": "organization unit 3"
-    }
-  ],
-  "quantity-types": [
-    {
-      "id": 1,
-      "name": "Number"
-    },
-    {
-      "id": 2,
-      "name": "currency (TL)"
-    },
-    {
-      "id": 3,
-      "name": "quantity Type 3"
-    }
-  ],
-  "employee-targets": [
-    {
-      "id": 1,
-      "employee": {
-        "name": "Lorem2",
-        "id": 1
-      },
-      "event": {
-        "name": "Event 1",
-        "id": 1
-      },
-      "product": {
-        "name": "product 1",
-        "id": 1
-      },
-      "quantity": 5,
-      "quantity_type": {
-        "name": "Number",
-        "id": 1
-      },
-      "calculation_period": {
-        "name": "Monthly",
-        "id": 1
-      },
-      "calculation_start_date": {
-        "name": "First day of the month",
-        "id": 1
-      },
-      "calculation_end_date": {
-        "name": "Last day of the quarter",
-        "id": 2
-      },
-      "status": 2
-    },
-    {
-      "id": 3,
-      "employee": {
-        "name": "Ann",
-        "id": 3
-      },
-      "event": {
-        "name": "Event 2",
-        "id": 2
-      },
-      "product": {
-        "name": "product 3",
-        "id": 3
-      },
-      "quantity": -11,
-      "quantity_type": {
-        "name": "quantity Type 3",
-        "id": 3
-      },
-      "calculation_period": {
-        "name": "Yearly",
-        "id": 3
-      },
-      "calculation_start_date": {
-        "name": "First day of the year",
-        "id": 3
-      },
-      "calculation_end_date": {
-        "name": "Last day of the year",
-        "id": 3
-      },
-      "status": 2
-    }
-  ],
-  "dealer-targets": [
-    {
-      "id": 1,
-      "dealer": {
-        "name": "Lorem2",
-        "id": 1
-      },
-      "event": {
-        "name": "Event 1",
-        "id": 1
-      },
-      "product": {
-        "name": "product 1",
-        "id": 1
-      },
-      "quantity": 5,
-      "quantity_type": {
-        "name": "Number",
-        "id": 1
-      },
-      "calculation_period": {
-        "name": "Monthly",
-        "id": 1
-      },
-      "calculation_start_date": {
-        "name": "First day of the month",
-        "id": 1
-      },
-      "calculation_end_date": {
-        "name": "Last day of the quarter",
-        "id": 2
-      },
-      "status": 2
-    },
-    {
-      "id": 3,
-      "dealer": {
-        "name": "Ann",
-        "id": 3
-      },
-      "event": {
-        "name": "Event 2",
-        "id": 2
-      },
-      "product": {
-        "name": "product 3",
-        "id": 3
-      },
-      "quantity": -11,
-      "quantity_type": {
-        "name": "quantity Type 3",
-        "id": 3
-      },
-      "calculation_period": {
-        "name": "Yearly",
-        "id": 3
-      },
-      "calculation_start_date": {
-        "name": "First day of the year",
-        "id": 3
-      },
-      "calculation_end_date": {
-        "name": "Last day of the year",
-        "id": 3
-      },
-      "status": 2
-    }
-  ],
-  "organization-unit-targets": [
-    {
-      "id": 1,
-      "organization_unit": {
-        "name": "Lorem2",
-        "id": 1
-      },
-      "operation": {
-        "name": "operation 1",
-        "id": 1
-      },
-      "event": {
-        "name": "event 1",
-        "id": 1
-      },
-      "product": {
-        "name": "product 1",
-        "id": 1
-      },
-      "quantity": 5,
-      "quantity_type": {
-        "name": "Number",
-        "id": 1
-      },
-      "calculation_period": {
-        "name": "Monthly",
-        "id": 1
-      },
-      "calculation_start_date": {
-        "name": "First day of the month",
-        "id": 1
-      },
-      "calculation_end_date": {
-        "name": "Last day of the quarter",
-        "id": 2
-      },
-      "status": 2
-    },
-    {
-      "id": 3,
-      "organization_unit": {
-        "name": "Ann",
-        "id": 3
-      },
-      "operation": {
-        "name": "operation 2",
-        "id": 2
-      },
-      "event": {
-        "name": "event 1",
-        "id": 1
-      },
-      "product": {
-        "name": "product 3",
-        "id": 3
-      },
-      "quantity": -11,
-      "quantity_type": {
-        "name": "quantity Type 3",
-        "id": 3
-      },
-      "calculation_period": {
-        "name": "Yearly",
-        "id": 3
-      },
-      "calculation_start_date": {
-        "name": "First day of the year",
-        "id": 3
-      },
-      "calculation_end_date": {
-        "name": "Last day of the year",
-        "id": 3
-      },
-      "status": 2
-    }
-  ]
+	"organization-units": [
+		{
+			"id": 2,
+			"json": "{}",
+			"email": "steve@codingthesmartway.com",
+			"name": "IT",
+			"zoom": 0.75,
+			"cdate": "2022/7/21",
+			"udate": "2022/7/21",
+			"modified": "Admin"
+		},
+		{
+			"id": 3,
+			"json": "{}",
+			"email": "ann@codingthesmartway.com",
+			"name": "Sales",
+			"zoom": 0.75,
+			"cdate": "2022/7/21",
+			"udate": "2022/7/21",
+			"modified": "Admin"
+		}
+	],
+	"commission-simulations": [
+		{
+			"id": 1,
+			"scenario": "Scenario 1",
+			"scenario_name": "Daily Commission Calculation for Dealer",
+			"operation": "2022/7/21",
+			"status": "Finish",
+			"commission_report": "Report1",
+			"simulation_start": "2022/7/21",
+			"simulation_end": "2022/7/21",
+			"confirmation": 1
+		},
+		{
+			"id": 2,
+			"scenario": "Scenario 2",
+			"scenario_name": "Daily Commission Calculation for Dealer",
+			"operation": "2022/7/21",
+			"status": "Finish",
+			"commission_report": "Report2",
+			"simulation_start": "2022/7/21",
+			"simulation_end": "2022/7/21",
+			"confirmation": 2
+		}
+	],
+	"parameters": [
+		{
+			"id": 1,
+			"parameter_data_type": "Parameter 1",
+			"parameter_value": "Parameter Value 1",
+			"last_modified_date": "2022/7/21"
+		},
+		{
+			"id": 2,
+			"parameter_data_type": "Parameter 2",
+			"parameter_value": "Parameter Value 2",
+			"last_modified_date": "2022/7/21"
+		}
+	],
+	"connection-parameters": [
+		{
+			"id": 1,
+			"connection_parameter_name": "Connection Parameter Name 1",
+			"connection_parameter_value": "Connection Parameter Value 1",
+			"last_modified_date": "2022/7/21"
+		},
+		{
+			"id": 2,
+			"connection_parameter_name": "Connection Parameter Name 2",
+			"connection_parameter_value": "Connection Parameter Value 2",
+			"last_modified_date": "2022/7/21"
+		}
+	],
+	"roles": [
+		{
+			"id": 1,
+			"module": "Login",
+			"roles_and_permissions": "Login",
+			"system_admin": true,
+			"manager": true,
+			"super_admin": true,
+			"ism_user": false,
+			"fraud_management_user": false,
+			"head_account": false,
+			"area_managers": false
+		},
+		{
+			"id": 2,
+			"module": "Party Management",
+			"roles_and_permissions": "Employees (display)",
+			"system_admin": true,
+			"manager": true,
+			"super_admin": true,
+			"ism_user": false,
+			"fraud_management_user": false,
+			"head_account": false,
+			"area_managers": false
+		},
+		{
+			"id": 3,
+			"module": "Party Management",
+			"roles_and_permissions": "Dealers (display)",
+			"system_admin": true,
+			"manager": true,
+			"super_admin": true,
+			"ism_user": false,
+			"fraud_management_user": false,
+			"head_account": false,
+			"area_managers": false
+		},
+		{
+			"id": 4,
+			"module": "Party Management",
+			"roles_and_permissions": "Partners (display)",
+			"system_admin": true,
+			"manager": true,
+			"super_admin": true,
+			"ism_user": false,
+			"fraud_management_user": false,
+			"head_account": false,
+			"area_managers": false
+		},
+		{
+			"id": 5,
+			"module": "Party Management",
+			"roles_and_permissions": "Organization Units (display)",
+			"system_admin": true,
+			"manager": true,
+			"super_admin": true,
+			"ism_user": false,
+			"fraud_management_user": false,
+			"head_account": false,
+			"area_managers": false
+		}
+	],
+	"open-tickets": [
+		{
+			"id": 1,
+			"ticket_subjects": "Ticket 1",
+			"ticket_type": "Ticket Type 1",
+			"ticket_text": "test",
+			"status": "1",
+			"start_date": "2022/7/21",
+			"end_date": "2022/7/21",
+			"confirmation": 1
+		},
+		{
+			"id": 2,
+			"ticket_subjects": "Ticket 2",
+			"ticket_type": "Ticket Type 2",
+			"ticket_text": "test",
+			"status": "2",
+			"commission_report": "Report2",
+			"start_date": "2022/7/21",
+			"end_date": "2022/7/21",
+			"confirmation": 2
+		}
+	],
+	"old-tickets": [
+		{
+			"id": 1,
+			"ticket_subjects": "Ticket 1",
+			"ticket_type": "Ticket Type 1",
+			"ticket_text": "test",
+			"status": "1",
+			"start_date": "2022/7/21",
+			"end_date": "2022/7/21",
+			"confirmation": 1
+		},
+		{
+			"id": 2,
+			"ticket_subjects": "Ticket 2",
+			"ticket_type": "Ticket Type 2",
+			"ticket_text": "test",
+			"status": "2",
+			"commission_report": "Report2",
+			"start_date": "2022/7/21",
+			"end_date": "2022/7/21",
+			"confirmation": 2
+		}
+	],
+	"system-health": [
+		{
+			"id": 1,
+			"system_name": "System 1",
+			"system_type": "System Type 1",
+			"system_health": "success",
+			"last_modified_date": "2022/7/21",
+			"private_ip": "private ip test",
+			"public_ip": "public ip test",
+			"version": 1,
+			"status": "status 1",
+			"last_logon_date": "last logon date 1",
+			"description": "description 1"
+		},
+		{
+			"id": 2,
+			"system_name": "System 2",
+			"system_type": "System Type 2",
+			"system_health": "error",
+			"last_modified_date": "2022/7/22",
+			"private_ip": "private ip test",
+			"public_ip": "public ip test",
+			"version": 2,
+			"status": "status 2",
+			"last_logon_date": "last logon date 2",
+			"description": "description 2"
+		}
+	],
+	"system-logs": [
+		{
+			"id": 1,
+			"log_name": "log 1",
+			"log_type": "log Type 1",
+			"log_message": "log message 1",
+			"last_modified_date": "2022/7/21",
+			"description": "description 1",
+			"source": "public ip 1",
+			"event": "source 1",
+			"status": 1
+		},
+		{
+			"id": 2,
+			"log_name": "log 2",
+			"log_type": "log Type 2",
+			"log_message": "log message 2",
+			"last_modified_date": "2022/7/22",
+			"description": "description 2",
+			"source": "public ip 2",
+			"event": "source 2",
+			"status": 2
+		}
+	],
+	"alerts": [
+		{
+			"id": 1,
+			"severity": "Critical",
+			"system_name": "System 1",
+			"report_date": "2022/7/21",
+			"last_modified_date": "2022/7/21",
+			"threshold": "threshold 1",
+			"action": "action 1",
+			"resource": "resource 1",
+			"instance": "instance 1",
+			"alert_value": 1,
+			"escalation_chain_system": "escalation_chain_system 1",
+			"status": 1
+		},
+		{
+			"id": 2,
+			"severity": "Critical",
+			"system_name": "System 2",
+			"report_date": "2022/7/22",
+			"last_modified_date": "2022/7/22",
+			"threshold": "threshold 2",
+			"action": "action 2",
+			"resource": "resource 2",
+			"instance": "instance 2",
+			"alert_value": 1,
+			"escalation_chain_system": "escalation_chain_system 2",
+			"status": 2
+		}
+	],
+	"employees": [
+		{
+			"id": 1,
+			"address": "Adresssssss...",
+			"name": "Steve",
+			"surname": "Thes",
+			"title": "Principal2",
+			"department": "IT",
+			"email": "steve@codingthesmartway.com",
+			"tel": "0555 555 55 55",
+			"job_start_date": "2022/7/21",
+			"job_end_date": "2022/7/21",
+			"trainings": [
+				{
+					"id": 2,
+					"training_name": "ddsadsa",
+					"training_desc": "ewwe",
+					"start_date": "15.06.2021",
+					"end_date": "17.06.2021",
+					"training_certification": "CRM Certified"
+				},
+				{
+					"id": 4,
+					"training_name": "aaasd",
+					"training_desc": "3334",
+					"start_date": "21.07.2022",
+					"end_date": "-",
+					"training_certification": ""
+				},
+				{
+					"id": 6,
+					"training_name": "-",
+					"training_desc": "-",
+					"start_date": "-",
+					"end_date": "-",
+					"training_certification": "-"
+				},
+				{
+					"id": 7,
+					"training_name": "-",
+					"training_desc": "-",
+					"start_date": "-",
+					"end_date": "-",
+					"training_certification": "-"
+				}
+			],
+			"experiences": [
+				{
+					"id": 1,
+					"title": "Marketing Director",
+					"job_desc": "B2C marketing management with 45 staff",
+					"start_date": "15.06.2021",
+					"end_date": "17.06.2021",
+					"company_name": "ABC Company"
+				}
+			],
+			"educations": [
+				{
+					"id": 1,
+					"school_name": "Primary School",
+					"field": "Science",
+					"start_date": "15.06.2021",
+					"end_date": "17.06.2021",
+					"country": "France"
+				}
+			],
+			"certifications": [
+				{
+					"id": 1,
+					"cert_name": "Google Analytics 4 Exp",
+					"desc": "B2C marketing certification",
+					"institue_name": "Google",
+					"grade": "95/100",
+					"validity_start_date": "15.06.2021",
+					"validity_end_date": "17.06.2021"
+				}
+			],
+			"projects": [
+				{
+					"id": 1,
+					"name": "project1",
+					"desc": "# project description",
+					"date": "15.06.2021"
+				}
+			],
+			"notes": [
+				{
+					"id": 1,
+					"note_header": "Önemli Bilgi",
+					"desc": "Şirket büyüme stratejisi ile ilgili detaylı planlama yapılacak.",
+					"date": "15.06.2021"
+				}
+			],
+			"documents": [
+				{
+					"id": 1,
+					"name": "Employee Photo",
+					"type": "Photo",
+					"link": "#",
+					"date": "15.06.2021"
+				}
+			],
+			"targets": [
+				{
+					"id": 1,
+					"TargetN": "Target Name",
+					"EventN": "Event Name",
+					"ProductN": "Product Name",
+					"Quantity": "12",
+					"QuantityType": "Number",
+					"TargetRealization": "9",
+					"TargetRealPersantange": "%10",
+					"TargetsDate": "15.06.2021",
+					"TargeteDate": "15.06.2023"
+				}
+			],
+			"sales": [
+				{
+					"id": 1,
+					"eventName": "Event Name",
+					"msisdn": "msisdn",
+					"planName": "Plan Name",
+					"payoutAmount": "Payout Amount",
+					"currency": "Currency",
+					"region": "Region",
+					"wilayat": "Wilayat",
+					"additionalPayoutAmount": "Additional Payout Amount",
+					"payoutTime": "Payout Time",
+					"paymentStatus": "Payment Status",
+					"payload": "Payload",
+					"saleChannel": "Sale Channel",
+					"activationDate": "15.06.2021"
+				}
+			]
+		}
+	],
+	"partners": [
+		{
+			"id": "1",
+			"no": "#",
+			"partnerName": "partner Name",
+			"partner": "#",
+			"projectN": "#",
+			"eventNa": "#",
+			"contactPe": "#",
+			"phone": "#",
+			"email": "#",
+			"contractSta": "#",
+			"contractEn": "#",
+			"muncipilatyEx": "#",
+			"registere": "#",
+			"latitud": "#",
+			"longitu": "#",
+			"isPreferP": "#",
+			"area": "#",
+			"dS": "#",
+			"createrU": "#",
+			"createSta": "#",
+			"distribut": "#",
+			"distrubutorNa": "#",
+			"areaType": "#",
+			"segment": "#",
+			"regio": "#",
+			"wil": "#",
+			"locat": "#",
+			"business": "#",
+			"aM": "#",
+			"areaManage": "#",
+			"dSM": "#",
+			"dSMName": "#",
+			"areaN": "#",
+			"inventor": "#",
+			"tags": [
+				"#tag1",
+				"#tag2"
+			],
+			"addresses": [
+				{
+					"id": 1,
+					"name": "#",
+					"desc": "#",
+					"date": "15.06.2021",
+					"city": "#",
+					"country": "#"
+				}
+			],
+			"contacts": [
+				{
+					"id": 1,
+					"name": "#",
+					"role": "#",
+					"date": "15.06.2021",
+					"city": "#",
+					"country": "#",
+					"phone": "05555555555"
+				}
+			],
+			"invoices": [
+				{
+					"id": 1,
+					"invoice_document": "#",
+					"invoice_date": "15.06.2021",
+					"payment_due_date": "#",
+					"currency": "#",
+					"amount": "#",
+					"received": "05555555555",
+					"remain": "05555555555"
+				}
+			],
+			"events": [
+				{
+					"id": 1,
+					"name": "#",
+					"type": "#",
+					"owner": "#",
+					"date": "15.06.2021",
+					"contacts": "#",
+					"summary": "#",
+					"todo_lists": "#",
+					"releated_docs": "#"
+				}
+			],
+			"projects": [
+				{
+					"id": 1,
+					"name": "#",
+					"type": "#",
+					"start_date": "15.06.2021",
+					"total_effort": "#",
+					"total_budget": "#",
+					"spe": "#",
+					"remaining": "#",
+					"currency": "#"
+				}
+			],
+			"documents": [
+				{
+					"id": 1,
+					"name": "#",
+					"desc": "#",
+					"date": "15.06.2021",
+					"city": "#",
+					"country": "#"
+				}
+			],
+			"notes": [
+				{
+					"id": 1,
+					"note_header": "Önemli Bilgi",
+					"text": "Şirket büyüme stratejisi ile ilgili detaylı planlama yapılacak.",
+					"date": "15.06.2021"
+				}
+			]
+		}
+	],
+	"sale-channel-matrix": [
+		{
+			"id": 1,
+			"sale_channel": "Sale Channel 1",
+			"sales_channel_group": "Sales Channel Group 1",
+			"sub_channel": "Sub Channel 1",
+			"user_type": "User Type 1",
+			"role": "Role 1",
+			"status": 1
+		},
+		{
+			"id": 2,
+			"sale_channel": "Sale Channel 2",
+			"sales_channel_group": "Sales Channel Group 2",
+			"sub_channel": "Sub Channel 2",
+			"user_type": "User Type 2",
+			"role": "Role 2",
+			"status": 2
+		},
+		{
+			"id": 3,
+			"sale_channel": "Sale Channel 3",
+			"sales_channel_group": "Sales Channel Group 3",
+			"sub_channel": "Sub Channel 3",
+			"user_type": "User Type 3",
+			"role": "Role 3",
+			"status": 3
+		}
+	],
+	"dealers": [
+		{
+			"id": 1,
+			"name": "Dealer 1"
+		},
+		{
+			"id": 2,
+			"name": "Dealer 2"
+		},
+		{
+			"id": 3,
+			"name": "Dealer 3"
+		}
+	],
+	"events": [
+		{
+			"id": 1,
+			"name": "Event 1"
+		},
+		{
+			"id": 2,
+			"name": "Event 2"
+		},
+		{
+			"id": 3,
+			"name": "Event 3"
+		}
+	],
+	"operations": [
+		{
+			"id": 1,
+			"name": "Operation 1"
+		},
+		{
+			"id": 2,
+			"name": "Operation 2"
+		},
+		{
+			"id": 3,
+			"name": "Operation 3"
+		}
+	],
+	"products": [
+		{
+			"id": 1,
+			"name": "product 1"
+		},
+		{
+			"id": 2,
+			"name": "product 2"
+		},
+		{
+			"id": 3,
+			"name": "product 3"
+		}
+	],
+	"organization-unit": [
+		{
+			"id": 1,
+			"name": "organization unit 1"
+		},
+		{
+			"id": 2,
+			"name": "organization unit 2"
+		},
+		{
+			"id": 3,
+			"name": "organization unit 3"
+		}
+	],
+	"quantity-types": [
+		{
+			"id": 1,
+			"name": "Number"
+		},
+		{
+			"id": 2,
+			"name": "currency (TL)"
+		},
+		{
+			"id": 3,
+			"name": "quantity Type 3"
+		}
+	],
+	"employee-targets": [
+		{
+			"id": 1,
+			"employee": {
+				"name": "Lorem2",
+				"id": 1
+			},
+			"event": {
+				"name": "Event 1",
+				"id": 1
+			},
+			"product": {
+				"name": "product 1",
+				"id": 1
+			},
+			"quantity": 5,
+			"quantity_type": {
+				"name": "Number",
+				"id": 1
+			},
+			"calculation_period": {
+				"name": "Monthly",
+				"id": 1
+			},
+			"calculation_start_date": {
+				"name": "First day of the month",
+				"id": 1
+			},
+			"calculation_end_date": {
+				"name": "Last day of the quarter",
+				"id": 2
+			},
+			"status": 2
+		},
+		{
+			"id": 3,
+			"employee": {
+				"name": "Ann",
+				"id": 3
+			},
+			"event": {
+				"name": "Event 2",
+				"id": 2
+			},
+			"product": {
+				"name": "product 3",
+				"id": 3
+			},
+			"quantity": -11,
+			"quantity_type": {
+				"name": "quantity Type 3",
+				"id": 3
+			},
+			"calculation_period": {
+				"name": "Yearly",
+				"id": 3
+			},
+			"calculation_start_date": {
+				"name": "First day of the year",
+				"id": 3
+			},
+			"calculation_end_date": {
+				"name": "Last day of the year",
+				"id": 3
+			},
+			"status": 2
+		}
+	],
+	"dealer-targets": [
+		{
+			"id": 1,
+			"dealer": {
+				"name": "Lorem2",
+				"id": 1
+			},
+			"event": {
+				"name": "Event 1",
+				"id": 1
+			},
+			"product": {
+				"name": "product 1",
+				"id": 1
+			},
+			"quantity": 5,
+			"quantity_type": {
+				"name": "Number",
+				"id": 1
+			},
+			"calculation_period": {
+				"name": "Monthly",
+				"id": 1
+			},
+			"calculation_start_date": {
+				"name": "First day of the month",
+				"id": 1
+			},
+			"calculation_end_date": {
+				"name": "Last day of the quarter",
+				"id": 2
+			},
+			"status": 2
+		},
+		{
+			"id": 3,
+			"dealer": {
+				"name": "Ann",
+				"id": 3
+			},
+			"event": {
+				"name": "Event 2",
+				"id": 2
+			},
+			"product": {
+				"name": "product 3",
+				"id": 3
+			},
+			"quantity": -11,
+			"quantity_type": {
+				"name": "quantity Type 3",
+				"id": 3
+			},
+			"calculation_period": {
+				"name": "Yearly",
+				"id": 3
+			},
+			"calculation_start_date": {
+				"name": "First day of the year",
+				"id": 3
+			},
+			"calculation_end_date": {
+				"name": "Last day of the year",
+				"id": 3
+			},
+			"status": 2
+		}
+	],
+	"organization-unit-targets": [
+		{
+			"id": 1,
+			"organization_unit": {
+				"name": "Lorem2",
+				"id": 1
+			},
+			"operation": {
+				"name": "operation 1",
+				"id": 1
+			},
+			"event": {
+				"name": "event 1",
+				"id": 1
+			},
+			"product": {
+				"name": "product 1",
+				"id": 1
+			},
+			"quantity": 5,
+			"quantity_type": {
+				"name": "Number",
+				"id": 1
+			},
+			"calculation_period": {
+				"name": "Monthly",
+				"id": 1
+			},
+			"calculation_start_date": {
+				"name": "First day of the month",
+				"id": 1
+			},
+			"calculation_end_date": {
+				"name": "Last day of the quarter",
+				"id": 2
+			},
+			"status": 2
+		},
+		{
+			"id": 3,
+			"organization_unit": {
+				"name": "Ann",
+				"id": 3
+			},
+			"operation": {
+				"name": "operation 2",
+				"id": 2
+			},
+			"event": {
+				"name": "event 1",
+				"id": 1
+			},
+			"product": {
+				"name": "product 3",
+				"id": 3
+			},
+			"quantity": -11,
+			"quantity_type": {
+				"name": "quantity Type 3",
+				"id": 3
+			},
+			"calculation_period": {
+				"name": "Yearly",
+				"id": 3
+			},
+			"calculation_start_date": {
+				"name": "First day of the year",
+				"id": 3
+			},
+			"calculation_end_date": {
+				"name": "Last day of the year",
+				"id": 3
+			},
+			"status": 2
+		}
+	]
 }
