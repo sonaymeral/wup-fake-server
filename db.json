@@ -364,6 +364,29 @@
           "link": "#",
           "date": "15.06.2021"
         }
+      ],
+	    "targets": [
+        {
+          "id": 1,
+          "TargetN": "Target Name",
+          "EventN": "Event Name",
+		  "ProductN": "Product Name",
+		  "Quantity": "12",
+		  "QuantityType": "Number",
+		  "TargetRealization": "9",
+		  "TargetRealPersantange": "%10",
+          "TargetsDate": "15.06.2021",
+		  "TargeteDate": "15.06.2023"
+        }
+      ],
+	  "sales": [
+        {
+          "id": 1,
+          "name": "Employee Photo",
+          "type": "Photo",
+          "link": "#",
+          "date": "15.06.2021"
+        }
       ]
     }
   ],
